@@ -13,5 +13,8 @@ for(i=1;i<=n;i++)
   factorial=factorial*i;
 }
   printf("factorial is", "%d");
+  return 0;
+}
+  
  
   
