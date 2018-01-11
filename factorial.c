@@ -9,3 +9,9 @@ printf("factorial of negative number");
 else
 {
 for(i=1;i<=n;i++)
+{
+  factorial=factorial*i;
+}
+  printf("factorial is", "%d");
+ 
+  
