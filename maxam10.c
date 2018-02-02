@@ -17,6 +17,9 @@ for(i=o;i<n;i++)
         a[i]=a[j];  
         a[j]=temp;
 }
+    }
+   }
+ 
 for(i=0;i<n;i++)
 {
 max=a[0];
