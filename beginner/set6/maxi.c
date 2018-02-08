@@ -2,7 +2,7 @@
 int main(void)
 {
 int i,n,temp,a[20],max;
-scanf("%d%d",&n);
+scanf("%d",&n);
 for(i=0;i<n;i++)
 {
 scanf("%d",a[i]);
@@ -19,10 +19,6 @@ a[j]=temp;
 }
 }
 }
-for(i=0;i<n;i++)
-{
-max=a[0];
-}
-printf("%d",max);
+printf("%d",a[0]);
 return 0;
 }
